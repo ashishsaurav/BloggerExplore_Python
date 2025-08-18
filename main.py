@@ -103,7 +103,7 @@ class Post:
 
 
 if __name__ == '__main__':
-    search = 'Invigolux Skin Serum Reviews - Anti-Aging Serum Solution!'
+    search = ''
     post = Post()
     post.signin(sys.argv)
     post.getblodid()
@@ -126,3 +126,4 @@ if __name__ == '__main__':
         print(str(curr_row+1) + ' ' + er)
         curr_row += 1
     post.getpostsurl()
+
